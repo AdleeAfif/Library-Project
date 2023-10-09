@@ -25,8 +25,8 @@ MySQL will be used as the database management system to store information about 
 
 1. **Clone the Repository:**
    ```
-   git clone <repository-url>
-   cd library-api-node-express
+   git clone https://github.com/AdleeAfif/Library-Project.git
+   cd library-api
    ```
 
 2. **Install Dependencies:**
