@@ -1,12 +1,46 @@
 **README.md**
 
-# Weather Forecast Application
+# Library API using Node.js and Express
 
-This repository provides a structured implementation for obtaining weather forecast information for a requested location, handling geocoding using the OpenCage API, making requests to the OpenMeteo API, and rendering the data onto corresponding templates.
+## Project Overview:
 
-## Usage:
+- Browse through a collection of books
+- Borrow and return books
 
-1. Run `npm install` to install the required dependencies.
-2. Set up environment variables for API keys and other configurations.
-3. Start the application using `npm run dev`.
-4. Access the weather forecast information by making requests to the appropriate endpoints.
+## Features:
+
+### 1. Authentication:
+Implement PassportJS based authentication system to authenticate users securely.
+
+### 2. Authorization:
+Users will be assigned specific roles, and middleware will be used to restrict access to certain endpoints based on the user's role. This ensures that only authorized users can perform specific actions.
+
+### 3. Secret Management:
+Sensitive information such as passwords and JWT secrets will be securely stored in environment variables. This practice prevents unauthorized access to sensitive data.
+
+### 4. Database Management:
+MySQL will be used as the database management system to store information about books and users. Proper database schema and relationships will be implemented to maintain data integrity.
+
+## How to Use:
+
+1. **Clone the Repository:**
+   ```
+   git clone <repository-url>
+   cd library-api-node-express
+   ```
+
+2. **Install Dependencies:**
+   ```
+   npm install
+   ```
+
+3. **Set Environment Variables:**
+   Create a `.env` file and set the necessary environment variables, including database connection details and JWT secrets.
+
+4. **Run the Application:**
+   ```
+   npm run dev
+   ```
+
+5. **Access the API:**
+   Open your API testing tool and access the API endpoints.
